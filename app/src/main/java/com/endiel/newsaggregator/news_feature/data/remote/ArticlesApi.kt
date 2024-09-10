@@ -5,7 +5,7 @@ import com.endiel.newsaggregator.news_feature.domain.model.Source
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-interface NewsApi {
+interface ArticleApi {
     // Request any keyword
     @GET("/v2/everything")
     suspend fun getNews(@Query("q") q: String): List<Articles>
