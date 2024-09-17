@@ -1,5 +1,6 @@
 package com.endiel.newsaggregator.news_feature.domain.model
 
+// The Article data class object from the Api
 data class Article(
     val author: String,
     val content: String,
